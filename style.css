@@ -295,9 +295,7 @@
   background-color: var(--baby-white);
 }
 
-.swiper{
-  position: absolute;
-}
+
 
 .swiper-wrapper{
   align-items: end;
