@@ -1,0 +1,137 @@
+/* 439PX MEIDA  */
+@media (max-width: 439px) {
+
+  .menu_overlay{
+    height: 100vh;
+  }
+
+  .menu_cols{
+    flex-direction: column;
+  }
+
+  .menu_cols{
+    flex: 0;
+    padding: 1.5em 0;
+    
+    & .video{
+      width: 100%;
+      padding: 1.5em 0;
+    }
+  }
+
+  .menu_link a {
+    font-size: 4.5rem;
+  }
+
+  .menu_footer_copy{
+    flex-direction: column-reverse;
+  }
+
+  .slogan, .socials{
+    padding: 1em 0;
+  }
+
+
+  h2 {
+    font-size: 1.60683rem;
+    line-height: 1.8rem;
+  }
+  .heading {
+    font-size: 3.21365rem;
+    line-height: 3.5rem;
+  }
+
+  .section {
+    padding: 4.1rem 0;
+  }
+
+  .cards_img{
+    flex-direction: column;
+    gap: 1rem;
+
+    & .card{
+      width: 100% !important;
+    }
+  }  
+
+  .counter_num{
+    height: 100vh !important;
+  }
+
+  .seat{
+    font-size: 5rem !important;
+  }
+
+  .get_in_touch_text{
+    font-size: 6.8rem;
+    line-height: 6.2rem;
+  }
+
+  .footer_cols{
+    flex-direction: column;
+  }
+
+  .footer_left h2{
+    font-size: 4rem !important;
+    padding-bottom: 0.5em;
+  }
+
+  .footer_right{
+    justify-content: space-between;
+  }
+
+  .footer_menu_item, .footer_socials{
+    padding: 0.5em 0 !important;
+  }
+
+  .footer_cols_two{
+    flex-direction: column;
+    align-items: flex-start !important;
+
+    & p{
+      padding-top: 0.5em;
+    }
+
+    & .footer_right{
+      display: flex;
+      justify-content: space-between !important;
+      padding-top: 2rem !important;
+    }
+  }
+  .footer_logo_animation{
+    bottom: 15rem !important;
+  }
+}
+
+/* 376PX MEDIA  */
+@media (max-width: 376px) {
+  p {
+    font-size: 1.2rem;
+    line-height: 2.11627rem;
+  }
+  h2 {
+    font-size: 1.40683rem;
+    line-height: 1.8rem;
+  }
+  .heading {
+    font-size: 2.90149rem;
+    line-height: 3.4rem;
+  }
+}
+
+/* 329PX MEDIA  */
+@media (max-width: 329px) {
+  p {
+    font-size: 1rem;
+    line-height: 2.11627rem;
+  }
+  h2 {
+    font-size: 1.05rem;
+    line-height: 1.4rem;
+  }
+  .heading {
+    font-size: 2.00149rem;
+    line-height: 2.4rem;
+    padding-bottom: 0.2rem;
+  }
+}
