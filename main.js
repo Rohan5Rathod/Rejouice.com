@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let tl = gsap.timeline({ paused: true });
   tl.to('.menu_overlay', {
     // duration:0.75,
+    opacity:1,
     clipPath: 'polygon(0 0, 100% 0 ,100% 100%, 0 100%)',
     ease: 'power2.out',
   });
